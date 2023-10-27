@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: lightgray;
+  position: relative;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 70%;
+  margin: 5rem auto;
+}
+
+h2 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.underline {
+  border-bottom: 5px solid #50d0ff;
+  width: 6rem;
+  margin: 10px auto;
+}
+.review {
+  background-color: lavenderblush;
+  border-radius: 10px;
+  width: 25rem;
+  height: 25rem;
+  margin-top: 8rem;
+  box-shadow: -3px 3px 11px 5px rgba(0, 0, 0, 0.29);
+  -webkit-box-shadow: -3px 3px 11px 5px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: -3px 3px 11px 5px rgba(0, 0, 0, 0.29);
+}
+
+.img-container {
+    position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.6rem;
+}
+
+.icon {
+    position: absolute;
+    width: 35px;
+    top: 0.4rem;
+    right: 9rem;
+}
+.person {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  border-top: 3px solid #50d0ff;
+  border-right: 11px solid #50d0ff;
+  border-bottom: 7px solid #50d0ff;
+}
+
+h4, p {
+    text-align: center;
+    width: 90%;
+    margin: 8px auto;
+}
+
+h4 {
+    text-transform: capitalize;
+}
+
+#job {
+    text-transform: uppercase;
+    color: #50d0ff;
+    font-weight: 600;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+    gap: 20px;
+}
+
+.prev, .next {
+    background: none;
+    cursor: pointer;
+    border: none;
+    color: #50d0ff;
+    font-size: 1rem;
+}
